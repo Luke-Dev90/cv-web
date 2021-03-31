@@ -1,0 +1,44 @@
+.card{
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow: black;
+}
+.card-img-top{
+    border-bottom-left-radius: 20px;
+}
+
+#progress{
+    margin-right: 100%;
+    initial-value: 20%;
+}
+
+#datos{
+    align-items: center;
+}
+
+@media (max-width: 575.98px) { 
+    .card-img-top{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }   
+ }
+
+ footer{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    vertical-align: center;
+ }
+
+ a{
+     margin-top: 1px;
+     margin-bottom: 1px;
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+ }
